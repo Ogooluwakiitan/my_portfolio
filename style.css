@@ -60,11 +60,12 @@ img {
 }
 .right-content {
   display: flex;
+  width: 60%;
   margin: 120px;
   padding: 10px;
 }
 .content {
-  width: 50%;
+  /* width: 50%; */
   padding: 30px;
   margin-left: 20px;
   justify-content: center;
@@ -74,19 +75,28 @@ img {
 /* left-content styles */
 .left-content {
   display: flex;
-  width: 50%;
-  margin: 120px;
+  width: 60%;
+  margin: 130px;
   justify-content: space-between;
 }
 .about {
   margin-right: 70px;
 }
 .contents {
-  margin-left: 50px;
+  margin-left: 20px;
   padding: 10px;
   font-size: 15px;
   font-weight: 500;
 }
-.second-list {
-  list-style-type: square;
+.second-list{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+.list{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 2px;
 }
